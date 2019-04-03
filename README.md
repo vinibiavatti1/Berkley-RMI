@@ -17,6 +17,7 @@ Horário Servidor 1: 07:20:10
 Conexão com Servidor 2 estabelecida com sucesso.
 Horário Servidor 2: 09:30:15
 Média: 07:20:10
+Horários atualizados
 Horario Local: 07:20:10
 Horario Servidor 1: 07:20:10
 Horario Servidor 2: 07:20:10
