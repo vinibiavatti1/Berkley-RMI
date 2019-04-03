@@ -1,4 +1,4 @@
-# FURB-RMI
+# FURB - Trabalho Berkeley com RMI
 Trabalho de Sistemas Distribuídos - Berkeley
 
 ## Execução
