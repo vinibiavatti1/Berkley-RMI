@@ -45,11 +45,12 @@ public class MainCliente {
             hs1.setHorario(horarioNovo);
             hs2.setHorario(horarioNovo);
             horarioLocal = horarioNovo;
+            System.out.println("Horários atualizados");
             
             // Verificar horario em todas as instâncias
-            System.out.println("Horarios Local: " + sdf.format(horarioLocal));
-            System.out.println("Horarios Servidor 1: " + sdf.format(hs1.getHorario()));
-            System.out.println("Horarios Servidor 2: " + sdf.format(hs2.getHorario()));
+            System.out.println("Horario Local: " + sdf.format(horarioLocal));
+            System.out.println("Horario Servidor 1: " + sdf.format(hs1.getHorario()));
+            System.out.println("Horario Servidor 2: " + sdf.format(hs2.getHorario()));
             
         } catch (Exception ex) {
             System.out.println(ex);
