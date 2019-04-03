@@ -5,7 +5,7 @@ Trabalho de Sistemas Distribuídos - Berkeley
 Para realizar a execução do projeto, a variável de ambiente <b>CLASSPATH</b> preicsa estar definida com o seguinte valor:
 - <b>.;%JAVA_HOME%\lib</b> (Não esquecer do ponto inicial)
 
-Após a configuração da variável de ambiente, o rmiregistry.exe precisa estar em execução. Para isto, basta abrir um prompt (cmd) e digitar o comando <b>start rmiregistry.exe</b>.
+Após a configuração da variável de ambiente, o rmiregistry.exe precisa estar em execução. Para isto, basta abrir um prompt (cmd) no diretório <b>%JAVA_HOME%\lib</b> e digitar o comando <b>start rmiregistry.exe</b>.
 
 Para executar o projeto, basta abri-lo em uma IDE e executar a classe <b>MainServidor</b>. No console irá retornar uma mensagem afirmando se os servidors 1 e 2 estão iniciados. Após isto, executar a classe <b>MainCliente</b> que irá acessar os dados dos servidores 1 e 2, e gerar o novo horário com base no horário deles.
 
