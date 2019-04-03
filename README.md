@@ -13,9 +13,9 @@ Para executar o projeto, basta abri-lo em uma IDE e executar a classe <b>MainSer
 ```
 Horário Local: 05:10:05
 Conexão com Servidor 1 estabelecida com sucesso.
-Horário Servidor 1: 07:20:10
+Horário Servidor 1: 07:30:10
 Conexão com Servidor 2 estabelecida com sucesso.
-Horário Servidor 2: 09:30:15
+Horário Servidor 2: 09:20:15
 Média: 07:20:10
 Horários atualizados
 Horario Local: 07:20:10
