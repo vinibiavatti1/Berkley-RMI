@@ -1,5 +1,6 @@
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
@@ -29,6 +30,8 @@ public class HorarioServidorImpl extends UnicastRemoteObject implements HorarioS
 
     @Override
     public void setHorario(Date horario) throws RemoteException {
+        SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
+        System.out.println("Horário atualizado: " + sdf.format(horario));
         this.horario = horario;
     }
 
