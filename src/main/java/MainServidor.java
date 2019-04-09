@@ -25,7 +25,9 @@ public class MainServidor {
             registry1.rebind("HorarioServidorImpl", hs1);
             System.out.println("Servidor 1 iniciado...");
             
-            // Servidor 2
+            // Servidor 2 (Somente para fazer teste na mesma máquina. Comentar este servidor
+            // caso mais máquinas forem utilizadas para a execução e mudar o horário do servidor
+            // 1 para realizar o teste.)
             HorarioServidor hs2 = new HorarioServidorImpl(sdf.parse("09:20:15"));
             Registry registry2 = LocateRegistry.createRegistry(PORTA_SERVIDOR_2);
             registry2.rebind("HorarioServidorImpl", hs2);
