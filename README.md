@@ -1,5 +1,5 @@
-# FURB - Trabalho Berkeley com RMI
-Trabalho de Sistemas Distribuídos - Berkeley
+# Java - Berkeley RMI
+Aplicação de simulação de algoritmo Berkeley para cálculo de média de horário entre cliente/servidor.
 
 ## Execução
 Para realizar a execução do projeto, a variável de ambiente <b>CLASSPATH</b> preicsa estar definida com o seguinte valor:
@@ -22,8 +22,3 @@ Horario Local: 07:20:10
 Horario Servidor 1: 07:20:10
 Horario Servidor 2: 07:20:10
 ```
-
-## Alunos
-- Vinícius
-- Alexandre
-- Bryan
